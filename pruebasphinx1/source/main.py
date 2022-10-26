@@ -55,6 +55,6 @@ class Empleados:
         '''
         return f"Hi, I'm {self.first_name} {self.last_name} :: born {self.date_born} :: and my DNI is {self.dni}"
 
-prueba = Empleados('carlos', 'montaña', '1988-06-25', 33582560)
+prueba = Empleados('carlos', 'montaña', '1920-06-29', 123456789)
 print(prueba.get_age())
 print(prueba.presentation())
